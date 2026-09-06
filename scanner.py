@@ -10,6 +10,5 @@ for port in range(1, 1025):
 
     if result == 0:
         print(f"[+] Porta {port} aberta")
-        print("test")
 
     sock.close()
